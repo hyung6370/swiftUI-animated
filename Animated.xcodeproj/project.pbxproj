@@ -21,6 +21,9 @@
 		BD409A412A9F794B00C77346 /* button.riv in Resources */ = {isa = PBXBuildFile; fileRef = BD409A3A2A9F794B00C77346 /* button.riv */; };
 		BD409A422A9F794B00C77346 /* icons.riv in Resources */ = {isa = PBXBuildFile; fileRef = BD409A3B2A9F794B00C77346 /* icons.riv */; };
 		BD409A452A9F79BB00C77346 /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = BD409A442A9F79BB00C77346 /* RiveRuntime */; };
+		BD977E4A2AA0BC50007F64B9 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD977E492AA0BC50007F64B9 /* SignInView.swift */; };
+		BD977E4C2AA0C92E007F64B9 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD977E4B2AA0C92E007F64B9 /* CustomTextField.swift */; };
+		BD977E4E2AA0DB43007F64B9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD977E4D2AA0DB43007F64B9 /* Extensions.swift */; };
 		BDBDB1832A9F7A10008E930F /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBDB1822A9F7A10008E930F /* OnboardingView.swift */; };
 		BDBDB18A2AA06E4B008E930F /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDBDB1872AA06E4B008E930F /* Inter-Regular.ttf */; };
 		BDBDB18B2AA06E4B008E930F /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDBDB1882AA06E4B008E930F /* Poppins-Bold.ttf */; };
@@ -43,6 +46,9 @@
 		BD409A392A9F794B00C77346 /* shapes.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = shapes.riv; sourceTree = "<group>"; };
 		BD409A3A2A9F794B00C77346 /* button.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = button.riv; sourceTree = "<group>"; };
 		BD409A3B2A9F794B00C77346 /* icons.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = icons.riv; sourceTree = "<group>"; };
+		BD977E492AA0BC50007F64B9 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		BD977E4B2AA0C92E007F64B9 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		BD977E4D2AA0DB43007F64B9 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		BDBDB1822A9F7A10008E930F /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		BDBDB1872AA06E4B008E930F /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
 		BDBDB1882AA06E4B008E930F /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
@@ -86,6 +92,9 @@
 				BD409A212A9F78C600C77346 /* AnimatedApp.swift */,
 				BD409A232A9F78C600C77346 /* ContentView.swift */,
 				BDBDB1822A9F7A10008E930F /* OnboardingView.swift */,
+				BD977E492AA0BC50007F64B9 /* SignInView.swift */,
+				BD977E4B2AA0C92E007F64B9 /* CustomTextField.swift */,
+				BD977E4D2AA0DB43007F64B9 /* Extensions.swift */,
 				BD409A252A9F78C800C77346 /* Assets.xcassets */,
 				BD409A2A2A9F78C800C77346 /* Persistence.swift */,
 				BD409A2C2A9F78C800C77346 /* Animated.xcdatamodeld */,
@@ -216,8 +225,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD409A2E2A9F78C800C77346 /* Animated.xcdatamodeld in Sources */,
+				BD977E4E2AA0DB43007F64B9 /* Extensions.swift in Sources */,
+				BD977E4A2AA0BC50007F64B9 /* SignInView.swift in Sources */,
 				BD409A2B2A9F78C800C77346 /* Persistence.swift in Sources */,
 				BD409A242A9F78C600C77346 /* ContentView.swift in Sources */,
+				BD977E4C2AA0C92E007F64B9 /* CustomTextField.swift in Sources */,
 				BDBDB18F2AA071D7008E930F /* CustomFont.swift in Sources */,
 				BDBDB1832A9F7A10008E930F /* OnboardingView.swift in Sources */,
 				BD409A222A9F78C600C77346 /* AnimatedApp.swift in Sources */,
