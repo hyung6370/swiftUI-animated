@@ -24,6 +24,7 @@
 		BD977E4A2AA0BC50007F64B9 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD977E492AA0BC50007F64B9 /* SignInView.swift */; };
 		BD977E4C2AA0C92E007F64B9 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD977E4B2AA0C92E007F64B9 /* CustomTextField.swift */; };
 		BD977E4E2AA0DB43007F64B9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD977E4D2AA0DB43007F64B9 /* Extensions.swift */; };
+		BD977FF42AA427C3007F64B9 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD977FF32AA427C3007F64B9 /* TabBar.swift */; };
 		BDBDB1832A9F7A10008E930F /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBDB1822A9F7A10008E930F /* OnboardingView.swift */; };
 		BDBDB18A2AA06E4B008E930F /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDBDB1872AA06E4B008E930F /* Inter-Regular.ttf */; };
 		BDBDB18B2AA06E4B008E930F /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDBDB1882AA06E4B008E930F /* Poppins-Bold.ttf */; };
@@ -49,6 +50,7 @@
 		BD977E492AA0BC50007F64B9 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		BD977E4B2AA0C92E007F64B9 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		BD977E4D2AA0DB43007F64B9 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		BD977FF32AA427C3007F64B9 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		BDBDB1822A9F7A10008E930F /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		BDBDB1872AA06E4B008E930F /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
 		BDBDB1882AA06E4B008E930F /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
@@ -91,17 +93,15 @@
 				BDBDB18D2AA06E70008E930F /* Info.plist */,
 				BD409A212A9F78C600C77346 /* AnimatedApp.swift */,
 				BD409A232A9F78C600C77346 /* ContentView.swift */,
-				BDBDB1822A9F7A10008E930F /* OnboardingView.swift */,
-				BD977E492AA0BC50007F64B9 /* SignInView.swift */,
-				BD977E4B2AA0C92E007F64B9 /* CustomTextField.swift */,
-				BD977E4D2AA0DB43007F64B9 /* Extensions.swift */,
+				BD977FF32AA427C3007F64B9 /* TabBar.swift */,
+				BD977E4F2AA1A10E007F64B9 /* Views */,
+				BD977E502AA1A11B007F64B9 /* Styles */,
 				BD409A252A9F78C800C77346 /* Assets.xcassets */,
 				BD409A2A2A9F78C800C77346 /* Persistence.swift */,
 				BD409A2C2A9F78C800C77346 /* Animated.xcdatamodeld */,
 				BDBDB1862AA06E4B008E930F /* Fonts */,
 				BD409A342A9F794B00C77346 /* RiveAssets */,
 				BD409A272A9F78C800C77346 /* Preview Content */,
-				BDBDB18E2AA071D7008E930F /* CustomFont.swift */,
 			);
 			path = Animated;
 			sourceTree = "<group>";
@@ -126,6 +126,25 @@
 				BD409A3B2A9F794B00C77346 /* icons.riv */,
 			);
 			path = RiveAssets;
+			sourceTree = "<group>";
+		};
+		BD977E4F2AA1A10E007F64B9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BDBDB1822A9F7A10008E930F /* OnboardingView.swift */,
+				BD977E492AA0BC50007F64B9 /* SignInView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BD977E502AA1A11B007F64B9 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				BD977E4B2AA0C92E007F64B9 /* CustomTextField.swift */,
+				BD977E4D2AA0DB43007F64B9 /* Extensions.swift */,
+				BDBDB18E2AA071D7008E930F /* CustomFont.swift */,
+			);
+			path = Styles;
 			sourceTree = "<group>";
 		};
 		BDBDB1862AA06E4B008E930F /* Fonts */ = {
@@ -233,6 +252,7 @@
 				BDBDB18F2AA071D7008E930F /* CustomFont.swift in Sources */,
 				BDBDB1832A9F7A10008E930F /* OnboardingView.swift in Sources */,
 				BD409A222A9F78C600C77346 /* AnimatedApp.swift in Sources */,
+				BD977FF42AA427C3007F64B9 /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
